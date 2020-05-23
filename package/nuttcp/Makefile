@@ -8,12 +8,12 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=nuttcp
-PKG_VERSION:=6.1.2
+PKG_VERSION:=8.2.2
 PKG_RELEASE:=1
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.bz2
 PKG_SOURCE_URL:=ftp://nuttcp.net/pub/nuttcp
-PKG_MD5SUM:=a16d4d6d5def02cea980e57feaf30500
+PKG_MD5SUM:=6bfdcb4712484afaf96dc9da64e332c1
 
 include $(INCLUDE_DIR)/package.mk
 
